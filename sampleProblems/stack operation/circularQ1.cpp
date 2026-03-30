@@ -6,7 +6,6 @@
 5.Increment the rear by 1 and store it in the rear index.
 6.Update the rear index using rear = (rear + 1) % SIZE.
 */
-//C++ Program
 #include <iostream>
 using namespace std;
 #define SIZE 5

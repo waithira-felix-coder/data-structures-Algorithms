@@ -1,12 +1,10 @@
-//C++ Program
-/*
+ /*
  Circular Deque Implementation in C++
   In this program, we will implement a circular deque (double-ended queue) using an array. We will define the structure of the deque and implement basic operations such as push_front, push_back, pop_front, pop_back, and display. The circular deque allows us to efficiently utilize the space by connecting the rear of the deque back to the front when it reaches the end.
   1. Check if the deque is full. If it is full, return an error message.
  2. Remove the element from the front or back of the deque.
 3. Increment or decrement the front or rear pointer.
 4. Decrement the size of the deque.
-
   */
 #include <iostream>
 using namespace std;
@@ -43,6 +41,7 @@ void pop_front() {
       else front = (front + 1) % SIZE;
    }
 }
+
 // Remove element from the back
 void pop_back() {
    if (isEmpty()) cout << "Deque is empty" << endl;
