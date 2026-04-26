@@ -14,8 +14,7 @@ int main(){
    cout<< LA[1] <<endl;
    LA[2] = item;
     cout<<"The array after updation  are :\n";
-
-   
+    
 
    for(i=0; i< n; i++){
     cout<<"LA["<<i<<"] = "<<LA[i] <<endl;
